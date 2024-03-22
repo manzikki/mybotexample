@@ -1,18 +1,17 @@
-﻿CSII Chulalongkorn School of Integrated Innovation
+﻿Safecoms Company Limited, Bangkok, Thailand
 Frequently Asked Questions (FAQs)
-When was CSII established?
-* CSII was established in August 2017.
-What is the structure of studies at CSII?
-* The studies consist of Foundation, Core Business, Core Technology and Specialization studies.
-Where is CSII
-* CSII is located at 4th  floor, Chaloem Rajakumari 60 Building, 254 Phayathai Road, Pathumwan, Bangkok
-Can I study artificial intelligence (AI) at CSII?
-* Yes. AI literacy is one of the main pillars of the program.
-Can I build a startup at CSII?
-* Yes. Many of the 4th year projects are startups.
-Can I study languages at CSII?
-* Yes, many language courses are available as electives, including Chinese and Japanese.
-How many students study at CSII?
-* The yearly intake is 100 students. It is a four year program so altogether around 400.
-What kind of resources does CSII have?
-* CSII has an IoT and robotics lab, an AI lab, study rooms, classrooms and a large auditorium.
+When was Safecoms established?
+* Safecoms was established in 2005.
+Where are Safecom's offices?
+* Safecom's main office is at 191/36, CTI Tower, 23th Floor, New, Khlong Toei, Bangkok 10110, Thailand. Safecom's Myanmar office is at Parkside One Building, 271-273, Bagayar Street, Sanchaung Township, Yangon, Myanmar.
+What does Safecoms do?
+* Safecoms does IT consulting, IT security, cloud solutions and ERP systems.
+Has Safecoms won any awards?
+* Safecoms won The 2009 Thailand ICT Award with the Peppercan app.
+Who works at Safecoms?
+* Bernard Collin, Founder and CEO
+* Eddy Bellavoine, CCO
+* João Paulo Maluf, CTO
+* Andre Vermeulen, ERP Division Manager
+What kinds of activities does Safecoms organize?
+* Breakfast seminars

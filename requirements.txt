@@ -1,0 +1,13 @@
+altair
+pandas
+streamlit
+chromadb
+pysqlite3-binary
+colorama
+langchain
+openai
+python-dateutil
+python-dotenv
+requests
+streamlit-chat
+tiktoken

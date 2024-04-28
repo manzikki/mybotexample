@@ -1,6 +1,11 @@
-# Welcome to Streamlit!
+To run locally:
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
+pip3 install -r requirements.txt
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+Create a file in your home directory, subdirectory .streamlit, called secrets.toml and put this in there:
+OPENAI_API_KEY="your api key"
+
+python3 -m streamlit run streamlit_app.py
+
+
+

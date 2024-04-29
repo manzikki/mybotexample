@@ -17,4 +17,5 @@ What kinds of activities does Safecoms organize?
 * Breakfast seminars
 Who are the main customers of Safecoms?
 * Safecoms has consulted TOG and ADA cosmetics.
-
+What ERP does Safecoms?
+* Safecoms uses and provides consultation on the ODOO ERP.

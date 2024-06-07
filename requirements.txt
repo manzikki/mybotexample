@@ -11,3 +11,4 @@ python-dotenv
 requests
 streamlit-chat
 tiktoken
+langchain_community

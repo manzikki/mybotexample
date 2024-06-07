@@ -47,7 +47,7 @@ def format_docs(docs):
 
 def load_documents():
     """Load a file from path, split it into chunks, embed each chunk and load it into the vector store."""
-    raw_documents = TextLoader("./docs/faq.txt").load()
+    raw_documents = TextLoader("./docs/faq-scii.txt").load()
     text_splitter = CharacterTextSplitter(chunk_size=100, chunk_overlap=0)
     return text_splitter.split_documents(raw_documents)
 

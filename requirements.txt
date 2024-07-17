@@ -2,7 +2,7 @@ altair
 pandas
 streamlit
 chromadb
-pysqlite3-binary
+#pysqlite3-binary
 colorama
 langchain
 openai
@@ -12,4 +12,4 @@ requests
 streamlit-chat
 tiktoken
 langchain_community
-protobuf~=3.19.0
+

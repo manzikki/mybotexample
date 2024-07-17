@@ -12,4 +12,4 @@ requests
 streamlit-chat
 tiktoken
 langchain_community
-opentelemetry-api
+protobuf~=3.19.0

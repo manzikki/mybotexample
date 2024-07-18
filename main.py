@@ -22,7 +22,7 @@ load_dotenv()
 # https://python.langchain.com/docs/modules/data_connection/vectorstores/
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-LANGUAGE_MODEL = "gpt-3.5-turbo-instruct"
+LANGUAGE_MODEL = "gpt-4o"
 
 template: str = """/
     You are a customer support specialist /
@@ -38,7 +38,7 @@ chat_prompt_template = ChatPromptTemplate.from_messages(
     [system_message_prompt, human_message_prompt]
 )
 
-model = ChatOpenAI()
+model = ChatOpenAI(model=LANGUAGE_MODEL)
 
 
 def format_docs(docs):

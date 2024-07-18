@@ -10,7 +10,7 @@ except:
 from main import query
 
 openai.api_key = st.secrets["OPENAI_API_KEY"]
-MODEL_ENGINE = "gpt-3.5-turbo"
+MODEL_ENGINE = "gpt-4o"
 
 st.title("🤖 Chatbot App")
 chat_placeholder = st.empty()

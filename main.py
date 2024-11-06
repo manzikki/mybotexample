@@ -1,5 +1,6 @@
 #strongly influenced by OpenAI API for Python developers by Sandy Ludowski
 import os
+import chromadb #clean cache after query to avoid "tenant" error
 from dotenv import load_dotenv
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import TextLoader
@@ -79,6 +80,7 @@ def query(query):
     documents = load_documents()
     retriever = load_embeddings(documents, query)
     response = generate_response(retriever, query)
+    chromadb.api.client.SharedSystemClient.clear_system_cache()
     return response
 
 if __name__ == "__main__":

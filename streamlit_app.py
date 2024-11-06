@@ -1,3 +1,4 @@
+#Marko Niinimaki 2024, please see readme
 import streamlit as st
 import openai
 import os
@@ -9,10 +10,12 @@ except:
     pass
 from main import query
 
+organization = "CSII"
+
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 MODEL_ENGINE = "gpt-4o"
 
-st.title("🤖 Chatbot App")
+st.title("🤖"+organization+" Chatbot App")
 chat_placeholder = st.empty()
 
 
@@ -33,7 +36,7 @@ def start_chat():
                     st.markdown(message["content"])
 
     # Accept user input
-    if prompt := st.chat_input("Please ask about our organization!"):
+    if prompt := st.chat_input("Please ask about "+organization+"!"):
         # Add user message to chat history
         st.session_state.messages.append({"role": "user", "content": prompt})
 
